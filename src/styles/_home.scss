@@ -1,0 +1,91 @@
+.home {
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    display: list-item
+  }
+
+  .h {
+
+    .img {
+      position: absolute;
+
+      @media (max-aspect-ratio:160/92) {
+        width: 8.6227vw;
+        height: 6.1343vw;
+      }
+
+      @media (min-aspect-ratio: 160 / 92) and (max-aspect-ratio: 160 / 80) {
+        width: 13.3393vh;
+        height: 9.4897vh;
+      }
+
+      @media (min-aspect-ratio: 160/80) and (max-aspect-ratio:160/60) {
+        width: 11.3384vh;
+        height: 8.0662vh;
+      }
+
+      @media (min-aspect-ratio: 160/60) {
+        width: 9.6376vh;
+        height: 6.8563vh;
+      }
+    }
+
+    &:nth-child(1) {
+      .img {
+        top: 11.9069vh;
+        left: 0.9259vw;
+      }
+    }
+
+    &:nth-child(2) {
+
+      .img {
+        top: 25.2462vh;
+        left: 15.1042vw;
+
+      }
+    }
+
+    &:nth-child(3) {
+      .img {
+        top: 38.5855vh;
+        left: 29.2824vw;
+
+      }
+    }
+
+    &:nth-child(4) {
+      .img {
+        top: 51.9248vh;
+        left: 43.3449vw;
+
+      }
+    }
+
+    &:nth-child(5) {
+      .img {
+        top: 38.5855vh;
+        left: 57.5231vw;
+
+      }
+    }
+
+    &:nth-child(6) {
+      .img {
+        top: 51.9248vh;
+        left: 71.7014vw;
+      }
+    }
+
+    &:nth-child(7) {
+      .img {
+        top: 65.2641vh;
+        left: 85.8218vw;
+      }
+    }
+  }
+}

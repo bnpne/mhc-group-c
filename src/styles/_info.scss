@@ -1,0 +1,27 @@
+.info {
+  padding: 21rem $defaultPadding;
+  box-sizing: border-box;
+
+  #body-text {
+    display: flex;
+    flex-wrap: wrap;
+
+    &:not(:first-child) {
+      margin-top: 17rem
+    }
+  }
+
+  p {
+    @include largeBodyType;
+
+    span {
+      display: inline;
+
+    }
+  }
+
+  .indent {
+    flex: 0 0 calc(100% / 14 * 11);
+    margin-left: calc(100% / 14 * 3);
+  }
+}

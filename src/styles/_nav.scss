@@ -1,0 +1,18 @@
+nav {
+  @include bodyType;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    display: inline-block;
+  }
+
+  div {
+    &:first-child {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
